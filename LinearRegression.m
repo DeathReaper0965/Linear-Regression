@@ -2,7 +2,7 @@
 clear ; close all; clc
 
 fprintf('Plotting Data ...\n')
-data = load('ex1data1.txt');
+data = load('LRdata.txt');
 X = data(:, 1); y = data(:, 2);
 m = length(y); % number of training examples
 
