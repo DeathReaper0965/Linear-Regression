@@ -2,7 +2,7 @@ clear ; close all; clc
 
 fprintf('Loading data ...\n');
 
-data = load('LRdata-multi');
+data = load('LRdata-multi.txt');
 X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
