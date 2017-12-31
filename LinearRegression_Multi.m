@@ -2,7 +2,7 @@ clear ; close all; clc
 
 fprintf('Loading data ...\n');
 
-data = load('ex1data2.txt');
+data = load('LRdata-multi');
 X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
