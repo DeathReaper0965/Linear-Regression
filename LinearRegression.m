@@ -1,12 +1,5 @@
 
 clear ; close all; clc
-fprintf('Running warmUpExercise ... \n');
-fprintf('5x5 Identity Matrix: \n');
-warmUpExercise()
-
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
 
 fprintf('Plotting Data ...\n')
 data = load('ex1data1.txt');
