@@ -48,7 +48,7 @@ pause;
 
 fprintf('Solving with normal equations...\n');
 
-data = csvread('ex1data2.txt');
+data = csvread('LRdata-multi.txt');
 X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
